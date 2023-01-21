@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace ProyectoConcesionaria
 {
-    public partial class Home : Form
+    public partial class Incomes : Form
     {
-        public Home()
+        public Incomes()
         {
             InitializeComponent();
         }
 
-        private void Home_Load(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
@@ -27,12 +27,12 @@ namespace ProyectoConcesionaria
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void button6_Click_1(object sender, EventArgs e)
         {
 
         }
@@ -42,17 +42,7 @@ namespace ProyectoConcesionaria
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button2_Click_1(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
