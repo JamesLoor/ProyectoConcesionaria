@@ -16,9 +16,14 @@ namespace ProyectoConcesionaria
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new LoginForm());
             Application.Run(new Home());
             Application.Run(new Incomes());
+=======
+            //Application.Run(new LoginForm());
+            Application.Run(new UserDialog());
+>>>>>>> b315d3efea146563f3b1e93f98b78a6c3b1c6cdc
         }
     }
 }
